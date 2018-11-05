@@ -12,9 +12,9 @@ sys.stderr = codecs.getwriter('utf8')(sys.stderr)
 
 app = Flask(__name__)
 
-foursquare_client_id = "VXCHKPH0KBQKROYRSEL1MQ0I5GAFR51LLDCN3ATQ0RVBHDBO"
-foursquare_client_secret = "OJKQUAQQTQMZF4NBLI2BCU5RWDZFTUC3SR5GJYKZUECUYKKT"
-google_api_key = "AIzaSyAZfkXRejsqRLvkutfNQzVe1WsQA5rKADM"
+foursquare_client_id = "Get an id from foursquare"
+foursquare_client_secret = "Get a secret from foursquare"
+google_api_key = "Get an api key from google"
 
 
 def getGeocodeLocation(inputString):
